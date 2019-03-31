@@ -1,59 +1,84 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Profile</title>
+    <title>R. Nicolas Caif</title>
 
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:700|Roboto" rel="stylesheet">
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 
   </head>
   <body>
 
     <div class="container">
-
       <div class="card">
         <div class="profile-header">
           <img src="images/cvpic.jpg" alt="Nicolas Caif profile picture" width="100" height="100" class="img-circle">
 
           <div class="profile-header-info">
-            <h1>Nicolas Caif</h1>
-            <h2>Student/Programmer @Le Wagon</h2>
+            <div class="data">
+              R. Nicolas Caif
+            </div>
+            <div class="quote">
+              Programmer / Engineer
+            </div>
             <p>
-              After many years in the construction business I decided to switch careers and become <em>part of the revolution</em>.
+              After many years in the construction business I decided to build in a different manner and become <em>part of the solution</em> in software development.
             </p>
           </div>
         </div>
-        <a href="https://github.com/nikoi4" target="_blank" class="btn-round-red">Take a look</a>
       </div>
 
-      <div class="card">
-        <ul class="list-inline">
-          <li>
-            <a href="https://github.com/nikoi4" target="_blank">
-              <i class="fas fa-code-branch social-medium"></i>
-              <p>GitHub</p>
-            </a>
-          </li>
-          <li>
-            <a href="https://ar.linkedin.com/in/rnicolascaif" target="_blank">
-              <i class="fab fa-linkedin-in social-medium"></i>
-              <p>LinkedIn</p>
-            </a>
-          </li>
-          <li>
-            <a href="https://www.facebook.com/nicocaif" target="_blank">
-              <i class="fab fa-facebook-square social-medium"></i>
-              <p>Facebook</p>
-            </a>
-          </li>
-        </ul>
-      </div>
+      <div class="card media">
+        <a href="https://www.linkedin.com/in/rnicolascaif/" target="_blank">
+          <div class="btn btn--1">
+            <div class="content">
+              <div class="front">
+                <div class="border"></div>
+                <i class="fab fa-linkedin"></i>
+              </div>
+              <div class="back">
+                <div class="border"></div>
+                <p>Profile</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="https://github.com/nikoi4" target="_blank">
+          <div class="btn btn--2">
+            <div class="content">
+              <div class="front">
+                <div class="border"></div>
+                <i class="fab fa-github"></i>
+              </div>
+              <div class="back">
+                <div class="border"></div>
+                <p>Portfolio</p>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="mailto:r.nicolascaif@gmail.com?subject=Contact
+&body=Hi Nico,">
+          <div class="btn btn--3">
+            <div class="content">
+              <div class="front">
+                <div class="border"></div>
+                <i class="fas fa-at"></i>
+              </div>
+              <div class="back">
+                <div class="border"></div>
+                <p>Email</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
 
       <div class="card">
-        <h2>My favorite athletes</h2>
-
+        <h2>Projects</h2>
         <table>
           <tbody>
             <tr>
@@ -61,8 +86,8 @@
                 <img src="images/chueco.jpg" alt="Juan Manuel Fangio" width="120" height="120">
               </td>
               <td>
-                <h3>Chueco Fangio - F1 champion</h3>
-                <p>Juan Manuel Fangio Déramo, nicknamed El Chueco or El Maestro, was an Argentine racing car driver. He dominated the first decade of Formula One racing, winning the World Drivers' Championship five times. From childhood, he abandoned his studies to pursue auto mechanics.</p>
+                <a href="https://www.parkingshare.app/" target="_blank"><h3>Parkingshare</h3></a>
+                <p>Along with 2 team members in two weeks as a final project we came up with the user stories, wireframed & designed the UX/UI and developed the frontend and backend of an Airbnb prototype for parkings.</p>
               </td>
             </tr>
 
@@ -113,6 +138,7 @@
         </ul>
       </div>
     </div>
-
+  <script src="https://cdn.jsdelivr.net/npm/baffle@0.3.6/dist/baffle.min.js"></script>
+  <script src="javascript/baffle.js"></script>
   </body>
 </html>

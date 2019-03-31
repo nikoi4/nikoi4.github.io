@@ -1,3 +1,6 @@
+@import url(components/btn.css);
+@import url(components/baffle.css);
+
 body {
   background-color: #EBEBEB;
   font-family: 'Roboto', sans-serif;
@@ -61,6 +64,12 @@ td {
   border: 1px solid rgba(10, 10, 10, 0.15);
 }
 
+.media {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
 .img-circle {
   border-radius: 100%;
   border: 2px solid #EBEBEB;
@@ -80,20 +89,7 @@ td {
   font-size: 25px
 }
 
-.btn-round-red {
-  background-color: #DD5555;
-  color: white;
-  font-weight: 300;
-  padding: 5px;
-  border-radius: 4px;
-  margin-bottom: 0px;
-}
 
-.btn-round-red:hover {
-  background-color: #da3e3e;
-  color: white;
-  font-weight: 600;
-}
 
 .profile-header {
   display: flex;
