@@ -64,6 +64,13 @@ td {
   margin: 0 auto;
 }
 
+@media (max-width: 800px) {
+  .container{
+    width: 95%;
+    margin: 0 auto;
+  }
+}
+
 .card {
   padding: 20px;
   margin: 20px 0;
