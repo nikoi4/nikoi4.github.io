@@ -22,11 +22,16 @@ h2 {
 
 h3 {
   font-size: 16px;
+  margin-bottom: 0;
+}
+
+h3 strong {
+  color: rgba(120, 120, 120, 1) !important;
 }
 
 a {
   text-decoration: none;
-  color: rgba(150, 150, 150, 0.4);
+  color: rgba(120, 120, 120, 0.8);
 }
 
 a:hover {
@@ -44,6 +49,10 @@ p {
   font-size: 14px;
   text-align: justify;
   margin-top: 0px;
+}
+
+p strong {
+  color: rgba(100, 100, 100, 1) !important;
 }
 
 td {
@@ -71,7 +80,7 @@ td {
 }
 
 .img-circle {
-  border-radius: 100%;
+  border-radius: 50%;
   border: 2px solid #EBEBEB;
 }
 
@@ -113,4 +122,25 @@ td {
 .profile-header-info p{
   line-height: 16px;
   margin-top: 5px;
+}
+
+.center-cover{
+  background-position: center;
+  background-size: cover;
+  width: 110px;
+}
+
+.whatsapp{
+color: #77E778;
+font-size: 18px;
+}
+
+.phone{
+color: #DD5555;
+font-size: 18px;
+}
+
+.email{
+color: black;
+font-size: 18px;
 }
