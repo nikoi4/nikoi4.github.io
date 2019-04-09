@@ -1,0 +1,22 @@
+.totop {
+  width: 90%;
+  position: sticky;
+  bottom: 50px;
+  text-align: end !important;
+  font-size: 20px;
+  z-index: 99;
+}
+
+.transition {
+  transition: all .8s ease-in-out;
+  padding: 5px 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  background-color: #E93F33;
+  color: white;
+}
+
+.transition:hover {
+  background-color: white;
+  color: #E93F33;
+}

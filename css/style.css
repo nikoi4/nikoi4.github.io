@@ -1,5 +1,6 @@
 @import url(components/btn.css);
 @import url(components/baffle.css);
+@import url(components/general.css);
 
 body {
   background-color: #EBEBEB;
@@ -66,7 +67,7 @@ td {
 
 @media (max-width: 1000px) {
   .container{
-    width: 95%;
+    width: 90%;
     margin: 0 auto;
   }
 }
