@@ -8,6 +8,8 @@ body {
   font-size: 14px;
   color: rgba(150, 150, 150, 0.8);
   text-align: center;
+  display: grid;
+  grid-template-columns: auto 0px;
 }
 
 h1 {
@@ -105,8 +107,6 @@ td {
 .social-medium {
   font-size: 25px
 }
-
-
 
 .profile-header {
   display: flex;

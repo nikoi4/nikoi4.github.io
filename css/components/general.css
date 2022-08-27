@@ -1,10 +1,12 @@
 .totop {
-  width: 90%;
   position: sticky;
   bottom: 50px;
+  margin-right: 50px;
   text-align: end !important;
   font-size: 20px;
-  z-index: 99;
+  place-self: end;
+  --offset: 100px;
+  margin-top: calc(100vh + var(--offset));
 }
 
 .transition {
@@ -14,9 +16,15 @@
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
   background-color: #E93F33;
   color: white;
+  white-space: nowrap;
 }
 
 .transition:hover {
   background-color: white;
   color: #E93F33;
+}
+
+/* remove the below if you don't want smooth scrolling */
+html,body {
+  scroll-behavior: smooth;
 }
